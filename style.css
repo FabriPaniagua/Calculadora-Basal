@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    background: #f0f0f3b4;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#contenedor{
+    width: 700px;
+    height: 350px;
+    text-align: center;
+    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+      0 10px 10px rgba(0,0,0,0.22);
+  }
+
+#one{
+    background: white;
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+.contenido{
+    /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 40px;
+}
+
+#error{
+    color: rgb(0, 17, 255);
+    font-weight: bold;
+}
+
+.resultado{
+    color: #0A81D1;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+
+
+#two{
+    background: #07648c;
+    /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
+    width: 50%;
+    height: 100%;
+    float: left;
+    color: #f6f5f7;
+
+}
+
+h1{
+    color: #41b6ff;
+}
+
+#titulo1{
+    color: #ffffff;
+}
+
+#parrafo1{
+    color: rgb(0, 0, 0)
+}
+p{
+    color: black;
+}
+
+input {
+	width: 70%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #eee;
+}
+
+button {
+  font-size: 15px;
+	font-weight: bold;
+	padding: 12px 45px;
+	border-radius: 30px;
+	background-color: #41b6ff;
+	border: 1px solid #41b0ff;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: transform 20ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
